@@ -1,0 +1,28 @@
+{
+  "name": "job_finder",
+  "version": "1.0.0",
+  "description": "Sistema portal de pesquisa de vagas de empregos",
+  "main": "app.js",
+  "keywords": [
+    "dev",
+    "jobs",
+    "dev",
+    "oportunity"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Rodrigo Viturino",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "sequelize": "^6.3.3",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
